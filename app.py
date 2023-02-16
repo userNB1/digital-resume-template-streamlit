@@ -69,17 +69,10 @@ st.write('\n')
 st.subheader("Experience & Qulifications")
 st.write(
     """
-- ✔️ PC Operating Systems, PC Hardware, Device Resources, BIOS/CMOS. Number systems. 
-- ✔️ Installation & Configuration, Troubleshooting, Command Line Commands, Performed on a variety of Microsoft Windows platforms.
-- ✔️ Topologies & Protocols, Security, Resource Sharing, Network Administration, Peer-to-Peer & Client/Server, TCP/IP Networking, Networking Services, Configuration and Troubleshooting. WiFi installation, use and testing. Domain Membership & Policies.
-PC Hardware
-- ✔️ Motherboards, CPUs, Memory, Device Installation, Upgrading and Configuring, Diagnostics. Troubleshooting. Biometric recognition devices. Laptop Maintenance
-Communications
-- ✔️ Standards, Ports and Modem Configurations, Dial-up Networking & xDSL, Remote Desktop, Intranet/Internet, Routers/Gateways, Troubleshooting.
-
-- ✔️ Laser/Matrix/Inkjet Printer Principles, Removal and Replacement Procedures, Local and Network Printers, Troubleshooting.
-Qualifications 
+- ✔️ Certificate of Successfully completed the Learn & GitHub Course   
+- ✔️ Certificate of Successfully completed the Learn the Command Line Course 
 - ✔️ Cerco Certificate in Systems & Networking (CCSN)
+- ✔️ CompTIA Network+ 
 """
 )
 
@@ -103,13 +96,18 @@ st.subheader("Work History")
 st.write("---")
 
 # --- JOB 1
-st.write("🚧", "**Senior Data Analyst | Ross Industries**")
-st.write("02/2020 - Present")
+st.write("🚧", "**Cerco IT Ltd | Cerco Certificate in Systems & Networking (UCSN)**")
+st.write("2023")
 st.write(
     """
-- ► Used PowerBI and SQL to redeﬁne and track KPIs surrounding marketing initiatives, and supplied recommendations to boost landing page conversion rate by 38%
-- ► Led a team of 4 analysts to brainstorm potential marketing and sales improvements, and implemented A/B tests to generate 15% more client leads
-- ► Redesigned data model through iterations that improved predictions by 12%
+- ► PC Operating Systems, PC Hardware, Device Resources, BIOS/CMOS. Number systems. 
+- ► Installation & Configuration, Troubleshooting, Command Line Commands, Performed on a variety of Microsoft Windows platforms.
+- ► Topologies & Protocols, Security, Resource Sharing, Network Administration, Peer-to-Peer & Client/Server, TCP/IP Networking, Networking Services, Configuration and Troubleshooting. 
+WiFi installation, use and testing. Domain Membership & Policies.
+- ► Motherboards, CPUs, Memory, Device Installation, Upgrading and Configuring, Diagnostics. Troubleshooting. 
+Biometric recognition devices. Laptop Maintenance
+- ► Standards, Ports and Modem Configurations, Dial-up Networking & xDSL, Remote Desktop, Intranet/Internet, Routers/Gateways, Troubleshooting.
+- ► Laser/Matrix/Inkjet Printer Principles, Removal and Replacement Procedures, Local and Network Printers, Troubleshooting.
 """
 )
 
