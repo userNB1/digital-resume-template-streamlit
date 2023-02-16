@@ -17,7 +17,7 @@ PAGE_TITLE = "Digital CV | Serghei Covalciuc"
 PAGE_ICON = ":wave:"
 NAME = "Serghei Covalciuc"
 DESCRIPTION = """
-I am a hardworking, honest individual. I am a good timekeeper, always willing to learn new skills. I am able to work independently in busy environments and also within a team setting. I am outgoing and tactful, and able to listen effectively when solving problems. I know how to use Windows and Linux commands to troubleshoot the network (ifconfig,ipconfig,netstat,ping). I know how to use Powershell and SSH for remote troubleshooting. I learned IPv4 Address scheme design, DNS,DHCP,SOHO Routers,Ethernet Switching and cabling.
+I am a hardworking, honest individual. I am a good timekeeper, always willing to learn new skills.
 """
 EMAIL = "sergiu199393@gmail.com"
 SOCIAL_MEDIA = {
@@ -29,6 +29,7 @@ SOCIAL_MEDIA = {
 
 
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
+
 
 
 # --- LOAD CSS, PDF & PROFIL PIC ---
@@ -68,10 +69,17 @@ st.write('\n')
 st.subheader("Experience & Qulifications")
 st.write(
     """
-- ✔️ 7 Years expereince extracting actionable insights from data
-- ✔️ Strong hands on experience and knowledge in Python and Excel
-- ✔️ Good understanding of statistical principles and their respective applications
-- ✔️ Excellent team-player and displaying strong sense of initiative on tasks
+- ✔️ PC Operating Systems, PC Hardware, Device Resources, BIOS/CMOS. Number systems. 
+- ✔️ Installation & Configuration, Troubleshooting, Command Line Commands, Performed on a variety of Microsoft Windows platforms.
+- ✔️ Topologies & Protocols, Security, Resource Sharing, Network Administration, Peer-to-Peer & Client/Server, TCP/IP Networking, Networking Services, Configuration and Troubleshooting. WiFi installation, use and testing. Domain Membership & Policies.
+PC Hardware
+- ✔️ Motherboards, CPUs, Memory, Device Installation, Upgrading and Configuring, Diagnostics. Troubleshooting. Biometric recognition devices. Laptop Maintenance
+Communications
+- ✔️ Standards, Ports and Modem Configurations, Dial-up Networking & xDSL, Remote Desktop, Intranet/Internet, Routers/Gateways, Troubleshooting.
+
+- ✔️ Laser/Matrix/Inkjet Printer Principles, Removal and Replacement Procedures, Local and Network Printers, Troubleshooting.
+Qualifications 
+- ✔️ Cerco Certificate in Systems & Networking (CCSN)
 """
 )
 
@@ -130,9 +138,4 @@ st.write(
 )
 
 
-# --- Projects & Accomplishments ---
-st.write('\n')
-st.subheader("Projects & Accomplishments")
-st.write("---")
-for project, link in PROJECTING.items():
-    st.write(f"[{project}]({link})")
+
