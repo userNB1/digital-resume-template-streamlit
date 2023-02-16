@@ -1,4 +1,5 @@
 from pathlib import Path
+from tkinter import PROJECTING
 
 import streamlit as st
 from PIL import Image
@@ -8,28 +9,22 @@ from PIL import Image
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 css_file = current_dir / "styles" / "main.css"
 resume_file = current_dir / "assets" / "CV.pdf"
-profile_pic = current_dir / "assets" / "profile-pic.png"
+profile_pic = current_dir / "assets" / "profile-pic.jpg"
 
 
 # --- GENERAL SETTINGS ---
-PAGE_TITLE = "Digital CV | John Doe"
+PAGE_TITLE = "Digital CV | Serghei Covalciuc"
 PAGE_ICON = ":wave:"
-NAME = "John Doe"
+NAME = "Serghei Covalciuc"
 DESCRIPTION = """
-Senior Data Analyst, assisting enterprises by supporting data-driven decision-making.
+I am a hardworking, honest individual. I am a good timekeeper, always willing to learn new skills. I am able to work independently in busy environments and also within a team setting. I am outgoing and tactful, and able to listen effectively when solving problems. I know how to use Windows and Linux commands to troubleshoot the network (ifconfig,ipconfig,netstat,ping). I know how to use Powershell and SSH for remote troubleshooting. I learned IPv4 Address scheme design, DNS,DHCP,SOHO Routers,Ethernet Switching and cabling.
 """
-EMAIL = "johndoe@email.com"
+EMAIL = "sergiu199393@gmail.com"
 SOCIAL_MEDIA = {
-    "YouTube": "https://youtube.com/c/codingisfun",
+    "YouTube": "https://youtube.com/",
     "LinkedIn": "https://linkedin.com",
     "GitHub": "https://github.com",
     "Twitter": "https://twitter.com",
-}
-PROJECTS = {
-    "🏆 Sales Dashboard - Comparing sales across three stores": "https://youtu.be/Sb0A9i6d320",
-    "🏆 Income and Expense Tracker - Web app with NoSQL database": "https://youtu.be/3egaMfE9388",
-    "🏆 Desktop Application - Excel2CSV converter with user settings & menubar": "https://youtu.be/LzCfNanQ_9c",
-    "🏆 MyToolBelt - Custom MS Excel add-in to combine Python & Excel": "https://pythonandvba.com/mytoolbelt/",
 }
 
 
@@ -139,5 +134,5 @@ st.write(
 st.write('\n')
 st.subheader("Projects & Accomplishments")
 st.write("---")
-for project, link in PROJECTS.items():
+for project, link in PROJECTING.items():
     st.write(f"[{project}]({link})")
